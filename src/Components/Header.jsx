@@ -25,7 +25,7 @@ function Header() {
           <p className="text-xl md:text-2xl font-['Roboto_Mono'] my-4 md:tracking-widest ">
             Check your eligibility now
           </p>
-          <button className="tracking-wide md:tracking-widest font-bold font-['Roboto_Mono'] text-lg border rounded-lg py-2.5 px-5 cursor text-black bg-white">
+          <button className="connectButton tracking-wide md:tracking-widest font-bold font-['Roboto_Mono'] text-lg border rounded-lg py-2.5 px-5 cursor text-black bg-white">
             Connect Wallet
           </button>
         </div>
