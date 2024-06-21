@@ -103,7 +103,7 @@ function Navbar() {
 
       {/* Mobile Menu Nar  */}
       {isOpen && (
-        <ul className="lg:hidden bg-ocean-blue-600 py-4 px-6 space-y-4 text-white">
+        <ul className="lg:hidden bg-ocean-blue-600 py-4 px-6 space-y-4 text-white bg-black">
           {navItems.map((item, index) => (
             <li
               className="text-base border p-2 rounded-full hover:bg-white/20 border-white"

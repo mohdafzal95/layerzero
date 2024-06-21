@@ -2,12 +2,18 @@ function Header() {
   return (
     <main className="flex  pt-8 h-screen text-gray-300  overflow-hidden">
       <div className="flex flex-col w-full">
-        <div className=" md:mt-0 md:h-[376px] 2xl:mx-auto">
-          <video muted autoPlay loop playsInline 
-                                   className="w-full h-auto max-w-5xl max-h-96"
-
+        <div className="md:mt-0 md:h-[376px] 2xl:mx-auto  h-[720px] w-[1280px]"
+        >
+          <video
+            muted
+            autoPlay
+            loop
+            playsInline
+            
+            className="object-cover md:w-full md:h-ful h-[80%] w-[100%]"
           >
             <source
+                        className=" border-2"
 
               src="https://claim-layerzero.foundation-8v.xyz/LayerZero+-+Header+V05+-+chrome.webm"
               type="video/webm"
@@ -15,7 +21,7 @@ function Header() {
             Your browser does not support the video tag.
           </video>
         </div>
-        <div className="md:py-4  flex flex-col justify-center items-center mx-auto lg:my-auto md:my-0 my-48">
+        <div className="md:py-4  flex flex-col justify-center items-center mx-auto lg:my-auto md:my-0 my-16">
           <h1 className="font-['Roboto_Mono'] text-xl md:text-4xl md:tracking-widest ">
             The $ZRO Airdrop has officially
           </h1>
