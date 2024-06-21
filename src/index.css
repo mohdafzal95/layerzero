@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400..700&display=swap');
+
+h1, h2, h3, h4, h5, h6 , a , button {
+  font-family: 'Reem Kufi Fun', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  /* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #0c203a; /* Slightly lighter than ocean-blue-900 */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #1a3a5e; /* Slightly darker than ocean-blue-900 */
+    border-radius: 6px;
+    border: 3px solid #0c203a;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #234b7a; /* Even darker on hover */
+  }
+  
+  /* For Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #1a3a5e #0c203a;
+  }
