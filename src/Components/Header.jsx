@@ -1,3 +1,4 @@
+import bgVideo from "../assets/layerzero.mp4"
 function Header() {
   return (
     <main className="flex  md:pt-8 h-screen text-gray-300  overflow-x-hidden overflow-y-auto">
@@ -12,7 +13,7 @@ function Header() {
           >
             <source
               className=" border-2"
-              src="https://claim-layerzero.foundation-8v.xyz/LayerZero+-+Header+V05+-+chrome.webm"
+              src={bgVideo}
               type="video/webm"
             />
             Your browser does not support the video tag.
@@ -35,3 +36,7 @@ function Header() {
 }
 
 export default Header;
+
+
+
+// https://d3a2dpnnrypp5h.cloudfront.net/layerzero-network/2024-05/LayerZero+-+Header+Animation+-+V02.mp4
