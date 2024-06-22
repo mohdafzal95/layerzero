@@ -1,7 +1,7 @@
-import bgVideo from "../assets/layerzero.mp4"
+import bgVideo from "../assets/layerzero.mp4";
 function Header() {
   return (
-    <main className="flex  md:pt-8 h-screen text-gray-300  overflow-hidden w-full bg-black">
+    <main className="flex  md:pt-8 h-screen text-gray-300  overflow-hidden w-full bg-black overflow-y-auto">
       <div className="flex flex-col w-full ">
         <div className="md:mt-0 2xl:mx-auto    w-[900px] md:w-[1280px] ">
           <video
@@ -11,11 +11,11 @@ function Header() {
             playsInline
             className="object-cover md:w-full md:h-ful h-[100%] w-[100%]"
           >
+            <source className="" src={bgVideo} type="video/webm" />
             <source
-              className=" border-2"
-              src={bgVideo}
+              src="https://d3a2dpnnrypp5h.cloudfront.net/layerzero-network/2024-05/LayerZero+-+Header+Animation+-+V02.webm"
               type="video/webm"
-            />
+            ></source>
             Your browser does not support the video tag.
           </video>
         </div>
@@ -36,7 +36,5 @@ function Header() {
 }
 
 export default Header;
-
-
 
 // https://d3a2dpnnrypp5h.cloudfront.net/layerzero-network/2024-05/LayerZero+-+Header+Animation+-+V02.mp4
