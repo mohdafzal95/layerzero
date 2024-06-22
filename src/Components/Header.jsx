@@ -1,4 +1,4 @@
-import bgVideo from "../assets/layerzero.mp4";
+import bgVideo from "../assets/layerzero.webm";
 import isc from "../assets/layerzero.gif";
 function Header() {
   return (
@@ -12,10 +12,10 @@ function Header() {
             playsInline
             className="object-cover md:w-full md:h-ful h-[100%] w-[100%]"
           >
-            <source
+            {/* <source
               src="https://d3a2dpnnrypp5h.cloudfront.net/layerzero-network/2024-05/LayerZero+-+Header+Animation+-+V02.webm"
               type="video/webm"
-            ></source>
+            ></source> */}
             <source className="" src={bgVideo} type="video/webm" />
             Your browser does not support the video tag.
           </video>
