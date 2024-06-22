@@ -1,11 +1,11 @@
 import bgVideo from "../assets/layerzero.mp4";
-import isc from "../assets/layerzero.gif"
+import isc from "../assets/layerzero.gif";
 function Header() {
   return (
     <main className="flex  md:pt-8 h-screen text-white  overflow-hidden w-full bg-black overflow-y-auto">
       <div className="flex flex-col w-full ">
         <div className="md:mt-0 2xl:mx-auto    w-[900px] md:w-[1280px] ">
-          {/* <video
+          <video
             muted
             autoPlay
             loop
@@ -18,12 +18,14 @@ function Header() {
             ></source>
             <source className="" src={bgVideo} type="video/webm" />
             Your browser does not support the video tag.
-          </video> */}
-            <div className="App">
-      <img src={isc} alt="description"      
-             className="object-cover md:w-full md:h-ful h-[100%] w-[100%]"
- />
-    </div>
+          </video>
+          {/* <div className="">
+            <img
+              src={isc}
+              alt="description"
+              className="object-cover md:w-full md:h-ful h-[100%] w-[100%]"
+            />
+          </div> */}
         </div>
         <div className="md:py-4  flex flex-col justify-center items-center mx-auto my-auto">
           <h1 className="text-4xl  tracking-wider md:tracking-widest mx-12 text-center">
