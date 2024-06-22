@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <main className="flex  md:pt-8 h-screen text-gray-300  overflow-hidden">
+    <main className="flex  md:pt-8 h-screen text-gray-300  overflow-x-hidden overflow-y-auto">
       <div className="flex flex-col w-full">
         <div className="md:mt-0 2xl:mx-auto  md:h-[620px] w-[1280px] ">
           <video
