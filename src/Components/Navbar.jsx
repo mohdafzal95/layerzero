@@ -39,6 +39,8 @@ function Navbar() {
                 fill="#fff"
               ></path>
             </svg>
+
+
           </div>
           <ul className="hidden lg:flex lg:space-x-6 text-white">
             {navItems.map((item, index) => (
