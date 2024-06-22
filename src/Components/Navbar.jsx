@@ -23,7 +23,7 @@ function Navbar() {
       <div className="flex justify-between">
         <div className="flex lg:w-full justify-around lg:justify-between lg:items-center">
           {/* logo */}
-          <div className="rounded-full text-4xl flex items-center px-8 lg:px-0.5 py-2  text-gray-300 font-bold">
+          <div className="rounded-full text-4xl flex items-center px-8 lg:px-0.5 py-2  text-white font-bold">
             <svg
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
